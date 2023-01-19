@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservation</title>
+    <link rel="stylesheet" href="css/reservation.css" />
+    <script
+      src="https://kit.fontawesome.com/97b2c6c2bb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="Fonts/Fontspring-DEMO-operetta12-regular.otf"
+    />
+  </head>
+  <body>
+    <div class="Reservation">
+      <div class="main-wrapper">
+        <nav id="navbar">
+          <div class="logo">
+            <img src="img/logo.jpg" alt="brand-logo" />
+          </div>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <!-- <li><a href="#reservation">Reservation</a></li> -->
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="#contactUs">Contact Us</a></li>
+          </ul>
+        </nav>
+        <div class="section-gallery-p">
+          <div class="page-padding">
+            <div class="container-large">
+              <div class="page-title-wrap">
+                <div class="page-title">
+                  <h1 id="h1" style="opacity: 1">
+                    <span class="letter" style="opacity: 1">R</span>
+                    <span class="letter" style="opacity: 1">E</span>
+                    <span class="letter" style="opacity: 1">S</span>
+                    <span class="letter" style="opacity: 1">E</span>
+                    <span class="letter" style="opacity: 1">R</span>
+                    <span class="letter" style="opacity: 1">V</span>
+                    <span class="letter" style="opacity: 1">A</span>
+                    <span class="letter" style="opacity: 1">T</span>
+                    <span class="letter" style="opacity: 1">I</span>
+                    <span class="letter" style="opacity: 1">O</span>
+                    <span class="letter" style="opacity: 1">N</span>
+                  </h1>
+                  <div class="page-title_underline"></div>
+                </div>
+              </div>
+              <div class="reservation-content">
+                <div class="reserve_embed w-embed w-iframe">
+                  <div class="row">
+                    <div class="book-your-table">
+                      <div class="col-lg-6">
+                        <div
+                          class="text-center p-5"
+                          style="background: #07252d"
+                        >
+                          <h1 class="text-white mb-4 mt-5">Book Your Table</h1>
+                          <form class="mb-5">
+                            <div class="form-group">
+                              <input
+                                type="text"
+                                class="form-control bg-transparent border-primary p-4"
+                                placeholder="Name"
+                                required="required"
+                              />
+                            </div>
+                            <div class="form-group">
+                              <input
+                                type="email"
+                                class="form-control bg-transparent border-primary p-4"
+                                placeholder="Email"
+                                required="required"
+                              />
+                            </div>
+                            <div class="form-group">
+                              <div
+                                class="date"
+                                id="date"
+                                data-target-input="nearest"
+                              >
+                                <input
+                                  type="text"
+                                  class="form-control bg-transparent border-primary p-4 datetimepicker-input"
+                                  placeholder="Date"
+                                  data-target="#date"
+                                  data-toggle="datetimepicker"
+                                />
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <div
+                                class="time"
+                                id="time"
+                                data-target-input="nearest"
+                              >
+                                <input
+                                  type="text"
+                                  class="form-control bg-transparent border-primary p-4 datetimepicker-input"
+                                  placeholder="Time"
+                                  data-target="#time"
+                                  data-toggle="datetimepicker"
+                                />
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <select
+                                class="custom-select bg-transparent border-primary px-4"
+                                style="height: 49px"
+                              >
+                                <option selected>Person</option>
+                                <option value="1">Person 1</option>
+                                <option value="2">Person 2</option>
+                                <option value="3">Person 3</option>
+                                <option value="3">Person 4</option>
+                              </select>
+                            </div>
+
+                            <div>
+                              <button
+                                class="btn btn-primary btn-block font-weight-bold py-3"
+                                type="submit"
+                              >
+                                Book Now
+                              </button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <footer class="footer">
+          <div class="page-padding">
+          <section class="contactus" id="contactUs">
+            <h1 class="text-big">CONTACT</h1>
+            <div class="contactusmain">
+              <div class="left">
+                <div class="contactlogo">
+                  
+                  <img src="img/logo.jpg" alt="logo" />
+                  <h2>Koselig</h2>
+                </div>
+                <div class="contactbox">
+                  <div class="form">
+                  <form action="">
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="Enter your email"
+                    />
+                    
+                    
+                  </div>
+      
+                  </form>
+                  <input type="submit" class="submit">
+                  <p class="promotext">
+                    Subscribe to our newsletter to stay in the loop with our latest
+                    news, promotions, and events.
+                  </p>
+                </div>
+              </div>
+              <div class="mid">
+                <h3 class="socialhandle">Social Media</h3>
+                <div class="social">
+                 
+                  <a href="www.instagram.com">
+                  <img src="img/insta-logo.webp" alt="instagram"></a>
+                  <a href="www.facebook.com">
+                  <img src="img/logo_fb.jpg" alt="facebook"></a>
+                </div>
+      
+      
+      
+              </div>
+              <div class="right">
+                <div class="rightcontact">
+                  <p class="rightcontactcontent">
+                    +91 85111 68868
+                    <br>
+                    1st floor 104<br>International Business&nbsp;Centre<br>Piplod Main Road,Surat,Gujarat<br>395007
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          </div>
+        </footer> -->
+    </div>
+    <section class="contactus" id="contactUs">
+      <h1 class="text-big">CONTACT</h1>
+      <div class="contactusmain">
+        <div class="left">
+          <div class="contactlogo">
+            <img src="img/logo2.jpg" alt="logo" />
+          </div>
+          <div class="contactbox">
+            <div class="form">
+            <form action="">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+              />
+              
+              
+            </div>
+
+            </form>
+            <input type="submit" class="submit">
+            <p class="promotext">
+              Subscribe to our newsletter to stay in the loop with our latest
+              news, promotions, and events.
+            </p>
+          </div>
+        </div>
+        <div class="mid">
+          <h3 class="socialhandle">Social Media</h3>
+          <div class="social">
+            <!-- <i class="fa-brands fa-instagram"></i> -->
+            <a href="https://www.instagram.com/koseligcoffee" target="_blank">
+            <img src="img/insta-logo.webp" alt="instagram"></a>
+            <a href="https://www.facebook.com/koseligsurat/about" target="_blank">
+            <img src="img/logo_fb.jpg" alt="facebook"></a>
+          </div>
+
+
+
+        </div>
+        <div class="right">
+          <div class="rightcontact">
+            <p class="rightcontactcontent">
+              +91 85111 68868
+              <br>
+              Time: 11:00A.M. to 11:30P.M.<br>
+              1st floor 104<br>International Business Centre<br>Piplod Main Road,Surat,Gujarat<br>395007
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p class="text-footer">Copyright &copy 2023| All rights reserved</p>
+    </footer>
+  </body>
+</html>
